@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Song Finder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>Song Finder</h1>
+    <p class="subtitle">Describe what you want to hear. Jev turns it into genre, mood, era, and energy.</p>
+
+    <form id="search-form">
+      <input
+        id="query"
+        type="text"
+        placeholder="e.g. upbeat 90s rock for a road trip"
+        autocomplete="off"
+      />
+      <button type="submit">Find songs</button>
+    </form>
+
+    <div id="status"></div>
+    <div id="filters" class="filters"></div>
+    <ul id="results" class="results"></ul>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
